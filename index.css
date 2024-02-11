@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    background-color: #fff8f0; 
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: 'Times New Roman', serif; 
+}
+
+article h2 {
+    color: #333; 
+    font-size: 24px; 
+    margin-bottom: 16px; 
+}
+
+article p {
+    color: #666; 
+    line-height: 1.6; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    /* New styles for highlighting the link */
+    background-color: #f8b400; /* A warm color that stands out */
+    padding: 10px 20px; /* Padding to make it look like a button */
+    border-radius: 25px; /* Rounded corners for a modern, button-like look */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    color: #fff; /* Optional: change text color on hover */
+    background-color: #e89f00; /* A slightly darker shade on hover */
+}
+
+.team-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.pet-profile {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.pet-photo {
+    width: 150px; 
+    height: auto;
+    border-radius: 50%; 
+    margin-bottom: 10px;
+}
+
+.pet-profile h3 {
+    margin: 5px 0;
+}
+
+.pet-profile p {
+    font-size: 14px;
+    color: #555;
+}
+
+.recipe-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text-content {
+    flex: 1;
+    padding-right: 20px; 
+}
+
+.image-content {
+    flex-basis: 10%;
+    text-align: center
+}
+
+.image-content img {
+    max-width: 20%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
